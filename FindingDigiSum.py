@@ -1,5 +1,6 @@
 	
 def findSum(n):
+
 	n = 720
 	s = 0
 
@@ -8,6 +9,18 @@ def findSum(n):
 		n = n // 10
 		s = s + x
 
-	print(s)
+	return(s)
 
-findSum(720)
+def checkHarshad(n):
+	if n % findSum(n) == 0:
+		return True
+	return False
+low = 80
+high = 110
+
+
+print(findSum(720))
+print(checkHarshad(720))
+
+for i in range (low, high, 1):
+	print(checkHarshad(i))
