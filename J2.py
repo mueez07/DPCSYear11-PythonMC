@@ -6,6 +6,6 @@ ctr = 0
 
 for i in range(n):
 	if (p1[i:i+1] == "C" ) and (p2[i:i+1] == "C"):
-	ctr = ctr + 1
+		ctr = ctr + 1
 
 print(ctr)
