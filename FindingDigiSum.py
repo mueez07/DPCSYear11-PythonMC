@@ -15,12 +15,12 @@ def checkHarshad(n):
 	if n % findSum(n) == 0:
 		return True
 	return False
-low = 80
-high = 110
 
+low = input()
+low = int(low)
+high = input()
+high = int(high)
 
-print(findSum(720))
-print(checkHarshad(720))
 
 for i in range (low, high, 1):
 	print(checkHarshad(i))
