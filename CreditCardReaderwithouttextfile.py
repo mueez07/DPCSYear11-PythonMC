@@ -13,14 +13,10 @@ def cardSum(n):
 				s = s + x%10
 				x = x//10 
 		ctr = ctr + 1
-		#print(n%10)
-		#s = s + n%10
+ 		#s = s + n%10
 		n = n //10
 
 	return(s)
-
-
-
 
 
 card = 787632682
